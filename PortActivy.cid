@@ -1,0 +1,15 @@
+/* This CID Communications 
+* VssID Communications CID
+*/
+VssID.Port {
+   port: '5686'
+   server: 'admin.vssid.port:5686'
+}
+VssID.Port {
+   port: '5689'
+   server: 'admin.vssid.port:5689'
+}
+VssID.Port {
+   port: '5637'
+   server: 'admin.vssid.port:5637'
+}
