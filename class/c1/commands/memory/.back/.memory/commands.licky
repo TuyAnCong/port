@@ -1,0 +1,15 @@
+#     _________|    
+# ||  \   _____.  ☆ 
+# ||   / /      \
+# ||  \ /        \
+# ---- /          \
+#---------------------
+# Licky
+# Licky Client Commands         #
+# from sdcid/help/commands.licky#
+Client = ReadFile$client.licky-pack
+ClientNewConnection = ${
+    admin: 'vssid.io/admin/json/v1/getme'
+}
+Client.ReadConnection$ClientNewConnection.Admin$required.files
+
