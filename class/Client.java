@@ -5,7 +5,7 @@ class SendClientViaLink(){
   /*
 SendClientViaLink Class Icon Share
 */
-start = shareLinkWithAction('portChat.message/share/${uid_group') 
+start = shareLinkWithAction('portChat.message/share/${uid_group}') 
 end = sayInPortChatSystem('Successfully Sended')
 shareIcon = raw('share.pngfree.com/image.png')
 }
